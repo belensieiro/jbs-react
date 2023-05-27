@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-family: 'Roboto Condensed', sans-serif;
+  
+      &:hover{
+        color: $principal;
+      }
+  }
