@@ -1,13 +1,19 @@
 // fuentes //
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 // colores //
 $principal: rgb(46,90,70);
+$danger: $principal;
 
 
 // VARIABLES BS //
     
 //navbar//
 $navbar-light-color:#000000c9;
-$navbar-light-active-color: #000;
+
+//personalizados//
+$shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.288);
+$shadowlight: -2px -12px 104px -54px rgba(247,247,247,1);

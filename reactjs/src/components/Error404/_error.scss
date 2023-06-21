@@ -1,0 +1,23 @@
+.contenedor-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    .img-error{
+        top: 25%;
+        z-index: -1;
+        opacity: .6;
+    }
+
+    .titulo-error{
+        color: $principal;
+        font-size: 150px;
+    }
+    
+    .titulo-uno{
+        font-size: 50px;
+    }
+}

@@ -1,13 +1,23 @@
+import ProductsList from "../productslist/productslist"
+import {useProducts} from "../../hooks/useProducts"
 
+const ItemListContainer = () => {
+    const { productos, loading } = useProducts()
 
-const Itemlist = ({greeting}) =>{
+    console.log(loading, productos)
+
 
     return (
-        <div className="container-fluid text-center mt-5">
-            <h1 className="d-inline-block aling-items-center p-3 title">{greeting}</h1>
-            <h2 className="subtitle">Conocé nuestras zapatillas y dejá tu huella.</h2>
-        </div>
-    )
+        <div>
+            <div className="container my-5">
+                {
+                    loading
+                        ? <h2 className="carga">Cargando...</h2>
+                        : <ProductsList items={productos}/>
+                }
+            </div>
+        </div>    
+    )    
 }
 
-export default Itemlist
+export default ItemListContainer

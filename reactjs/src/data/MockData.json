@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Forum Mid",
+        "id": 1,
+        "description": "Adidas urbanas.",
+        "category": "mujer",
+        "price": 65000,
+        "destacado": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ullam ipsam laborum, ea eligendi, impedit sapiente qui fugiat officiis magni asperiores porro quod perferendis placeat praesentium rem harum ratione natus!",
+        "origen": "Estados Unidos",
+        "colores": "Verde y negro, verde y blanco, blanco y negro, negro, blanco"
+    },
+    {
+        "name": "Dunk High",
+        "id": 2,
+        "description": "Nike urbanas.",
+        "category": "hombre",
+        "price": 79000,
+        "destacado": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ullam ipsam laborum, ea eligendi, impedit sapiente qui fugiat officiis magni asperiores porro quod perferendis placeat praesentium rem harum ratione natus!",
+        "origen": "Estados Unidos",
+        "colores": "Verde y negro, verde y blanco, blanco y negro, negro, blanco"
+    },
+    {
+        "name": "Air Jordan 1 Mid",
+        "id": 3,
+        "description": "Nike Jordan urbanas.",
+        "category": "hombre",
+        "price": 81700,
+        "destacado": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ullam ipsam laborum, ea eligendi, impedit sapiente qui fugiat officiis magni asperiores porro quod perferendis placeat praesentium rem harum ratione natus!",
+        "origen": "Estados Unidos",
+        "colores": "Verde y negro, verde y blanco, blanco y negro, negro, blanco"
+    },
+    {
+        "name": "Jordan retro",
+        "id": 4,
+        "description": "Nike urbanas.",
+        "category": "niños",
+        "price": 55000,
+        "destacado": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ullam ipsam laborum, ea eligendi, impedit sapiente qui fugiat officiis magni asperiores porro quod perferendis placeat praesentium rem harum ratione natus!",
+        "origen": "Estados Unidos",
+        "colores": "Verde y negro, verde y blanco, blanco y negro, negro, blanco"
+    },
+    {
+        "name": "Free Run 2",
+        "id": 5,
+        "description": "Nike deportivas.",
+        "category": "niños",
+        "price": 28000,
+        "destacado": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ullam ipsam laborum, ea eligendi, impedit sapiente qui fugiat officiis magni asperiores porro quod perferendis placeat praesentium rem harum ratione natus!",
+        "origen": "Estados Unidos",
+        "colores": "Verde y negro, verde y blanco, blanco y negro, negro, blanco"
+    },
+    {
+        "name": "I-5923",
+        "id": 6,
+        "description": "Adidas deportivas.",
+        "category": "mujer",
+        "price": 31000,
+        "destacado": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ullam ipsam laborum, ea eligendi, impedit sapiente qui fugiat officiis magni asperiores porro quod perferendis placeat praesentium rem harum ratione natus!",
+        "origen": "Estados Unidos",
+        "colores": "Verde y negro, verde y blanco, blanco y negro, negro, blanco"
+    },
+    {
+        "name": "Superstar",
+        "id": 7,
+        "description": "Adidas urbanas.",
+        "category": "mujer",
+        "price": 42000,
+        "destacado": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ullam ipsam laborum, ea eligendi, impedit sapiente qui fugiat officiis magni asperiores porro quod perferendis placeat praesentium rem harum ratione natus!",
+        "origen": "Estados Unidos",
+        "colores": "Verde y negro, verde y blanco, blanco y negro, negro, blanco"
+    },
+    {
+        "name": "Grand Court",
+        "id": 8,
+        "description": "Adidas urbanas.",
+        "category": "niños",
+        "price": 16000,
+        "destacado": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ullam ipsam laborum, ea eligendi, impedit sapiente qui fugiat officiis magni asperiores porro quod perferendis placeat praesentium rem harum ratione natus!",
+        "origen": "Estados Unidos",
+        "colores": "Verde y negro, verde y blanco, blanco y negro, negro, blanco"
+    },
+    {
+        "name": "550",
+        "id": 9,
+        "description": "New Balance urbanas.",
+        "category": "hombre",
+        "price": 68900,
+        "destacado": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ullam ipsam laborum, ea eligendi, impedit sapiente qui fugiat officiis magni asperiores porro quod perferendis placeat praesentium rem harum ratione natus!",
+        "origen": "Estados Unidos",
+        "colores": "Verde y negro, verde y blanco, blanco y negro, negro, blanco"
+    }  
+]

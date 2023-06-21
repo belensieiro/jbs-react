@@ -1,0 +1,36 @@
+.card{
+     box-shadow: $shadow;
+
+    .p-c{
+        text-align: left;
+        padding-left: 25px;
+        font-size: 10px;
+    }
+    .card-title {
+        font-size: 18px;
+     }  
+    
+    .card-title,.p-c,.price{
+        font-family: "Roboto Condensed", sans-serif;
+    }
+    
+    .img-card {
+        border: 1px solid rgba(250, 244, 244, 0.178);
+    }
+
+    .p-color{
+        font-family: "Roboto Condensed", sans-serif;
+        background-color: $principal;
+        color: white;
+        padding: 3px;
+        font-size: 11px;
+    }
+
+    .p-style{
+        font-size: 15px;
+        font-family: 'Libre Baskerville', serif;
+        color: rgba(0, 0, 0, 0.699);
+    }
+
+    
+}

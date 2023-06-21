@@ -1,0 +1,13 @@
+
+.fullscreen-video {
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+}
+  
+@media (max-width: 767px) {
+    .fullscreen-video {
+      object-fit: contain;
+    }
+}
+  
