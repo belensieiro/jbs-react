@@ -25,7 +25,7 @@ https://jbszapatillas.netlify.app/
       <li><b>"/productos/niños":</b> Muestra solo los productos coincidentes con la categoría "Niños".</li>   
     </ul>
   <br>
-    <li><b>"/detail/:itemId":</b> Esta ruta lleva al detalle de cada producto. En la misma se encuentra una card de producto + un accordion con información como: Despripción, Destacado, Origen y Colores. Cada producto contiene la información especifica a su modelo.</li>
+    <li><b>"/detail/:itemId":</b> Esta ruta lleva al detalle de cada producto. En la misma se encuentra una card de producto + un accordion con información como: Descripción, Destacado, Origen y Colores. Cada producto contiene la información especifica a su modelo.</li>
   <br>  
     <li><b>"*":</b> Esta ruta es la ruta resignada para el Error 404. Si se indica en la navegación una ruta incorrecta o una ruta que no está definida, se le redireccionará a esta página que le facilitará la vuelta al inicio. Mismo llegará a esta ruta si por error tipea un código de producto inexistente.</li>
 </ol>
