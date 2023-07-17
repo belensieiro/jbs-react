@@ -14,12 +14,12 @@ const Cart = () => {
             <div className="d-flex flex-column cart-info border border-dark border-opacity-10 bg-white rounded">
               <h4>{prod.name}</h4>                
               <div className="d-flex">
-                <img className="img-card me-3" src={`/public/${prod.id}.png`} alt={prod.name} />
+                <img className="img-card me-3" src={`/${prod.id}.png`} alt={prod.name} />
                 <div className="d-flex flex-column justify-content-center align-items-center">
                 <p className="cart-p">Unidades: <b>{prod.contador}</b></p>
                 <p className="cart-p">Precio: <b>${prod.price}</b></p>
                 <div onClick={() => eliminarDelCarrito(prod.id)}>
-                  <img src={`/public/cross.svg`} alt="icono cruz" />
+                  <img src={`/cross.svg`} alt="icono cruz" />
                 </div>           
                 </div>
               </div>
