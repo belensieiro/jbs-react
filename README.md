@@ -13,7 +13,7 @@ https://jbszapatillas.netlify.app/
   <br>
     <li><b>"/nosotros":</b> Renderiza el apartado de "Nosotros", donde se ubica la información de la empresa y los valores de la misma.</li>
   <br>
-    <li><b>"/cart":</b> Por esta ruta se accede al carrito de compras. Si está vacio invita al cliente a explorar los productos y en caso de contener productos, permite la interacción con los mismos, ya sea eliminandolos individualmente, eliminarlos en conjunto o confirmar la compra. </li>
+    <li><b>"/cart":</b> Por esta ruta se accede al carrito de compras. Si está vacio invita al cliente a explorar los productos y en caso de contener productos, permite la interacción con los mismos, ya sea eliminándolos individualmente, eliminarlos en conjunto o confirmar la compra. </li>
   <br>
     <li><b>"/checkout":</b> Como bien indica su nombre el checkout se renderiza solo al momento de confirmar el deseo de concretar la compra. No puede accederse a él si el carrito de compras se encuentra vacio, en caso de intentarlo lo redirigirá automáticamente a la página de inicio.</li> 
   <br>
@@ -25,9 +25,9 @@ https://jbszapatillas.netlify.app/
       <li><b>"/productos/niños":</b> Muestra solo los productos coincidentes con la categoría "Niños".</li>   
     </ul>
   <br>
-    <li><b>"/detail/:itemId":</b> Esta ruta lleva al detalle de cada producto. En la misma se encuentra una card de producto + un accordion con información como: Descripción, Destacado, Origen y Colores. Cada producto contiene la información especifica a su modelo.</li>
+    <li><b>"/detail/:itemId":</b> Esta ruta lleva al detalle de cada producto. En la misma se encuentra una card de producto + un accordion con información como: Descripción, Destacado, Origen y Colores. Cada producto contiene la información específica a su modelo.</li>
   <br>  
-    <li><b>"*":</b> Esta ruta es la ruta resignada para el Error 404. Si se indica en la navegación una ruta incorrecta o una ruta que no está definida, se le redireccionará a esta página que le facilitará la vuelta al inicio. Mismo llegará a esta ruta si por error tipea un código de producto inexistente.</li>
+    <li><b>"*":</b> Esta ruta es la resignada para el Error 404. Si se indica en la navegación una ruta incorrecta o una ruta que no está definida, se le redireccionará a esta página que le facilitará la vuelta al inicio. Mismo llegará a esta ruta si por error tipea un código de producto inexistente.</li>
 </ol>
 
 <b>(Responsive Design).</b>  
@@ -54,14 +54,14 @@ https://jbszapatillas.netlify.app/
 <p>Nota: Estos pasos asumen que ya tienes instalado Node.js y npm en tu computadora. Si no es así, deberás instalarlos antes de seguir los pasos.</p>
 
 <h2>Distintos componentes</h2>
-<p> El proyecto está compuesto por distintos de los cuales solo nombraré algunos:</p>
+<p> El proyecto está compuesto por distintos componentes de los cuales solo especificaré algunos:</p>
 <ul>
-<li>AccordionDetail: Es el accordion utilizado para brindar los detalles especificos de cada producto.</li>
+<li>AccordionDetail: Es el accordion utilizado para brindar los detalles específicos de cada producto.</li>
 <li>Banner: Dentro del mismo se realiza la presentación principal de la página y también hace llamado a los productos.</li>
 <li>Cart: Es aquel componente donde se encuentran las tarjetas de los productos. </li>
 <li>CartWidget: Se encuentra el carro de compras y el contador respectivo que indica cuantos productos se encuentran dentro del carrito. Si el carrito no tiene productos, el componente permanecerá oculto y aparecerá con una transición cuando se agreguen los mismos.</p>
 <li>Checkout: Se accede a él solo cuando se confirma la compra, dentro del mismo se encuentra el formulario de compra.</li>
-<li>Counter: Dentro de este componente está realizado como bien indica su nombre el counter, que permite decidir cuantos productos quieren ser agregados al carrito. Estos se encuentran condicionados por su la cantidad de stock disponible.</li>  
+<li>Counter: Dentro de este componente está realizado como bien indica su nombre el counter, que permite decidir cuantos productos van ser agregados al carrito. Estos se encuentran condicionados por la cantidad de stock disponible.</li>  
 <li>Spinner: Dentro de este componente está realizado el spinner que se muestra tanto en el inicio como en resto de vistas de la página, a excepción de /nosotros.</li>
   <br>
 <p> Además de todos los mencionados hay muchos más componentes tales como Errror404, Footer, ItemDetail, ItemDetailContainer, ItemListContainer, NavBar, Nosotros, Products, ProductsList y VideoBanner, cada uno cumple una función distinta pero escencial para el funcionamiento óptimo de la aplicación.</p>  
