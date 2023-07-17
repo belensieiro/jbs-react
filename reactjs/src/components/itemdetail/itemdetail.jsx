@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 
 const ItemDetail = ({name, id, category, description, price, origen, colores, destacado, stock}) => {
-    const imagePath = `/public/${id}.png`;
+    const imagePath = `/${id}.png`;
 
     const {agregarAlCarrito, Agregado} = useContext(Context)
 

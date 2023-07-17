@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 const Product = ({name, id, category, price}) => {
-    const imagePath = `/public/${id}.png`;
+    const imagePath = `/${id}.png`;
 
     return(   
         <div className="col-12 col-md-4">
