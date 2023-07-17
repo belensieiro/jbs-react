@@ -5,6 +5,14 @@ import { collection, addDoc } from "firebase/firestore"
 import { db } from "../../firebase/config"
 import { Link } from "react-router-dom"
 
+const validationConfig = [
+    { field: "nombre", label: "nombre" },
+    { field: "apellido", label: "apellido" },
+    { field: "direccion", label: "dirección" },
+    { field: "localidad", label: "localidad" },
+    { field: "email", label: "email" }
+  ]
+
 const Checkout = () =>{
 
     const {cart, Total, vaciarCarrito} = useCartContext()
@@ -25,9 +33,23 @@ const Checkout = () =>{
             [e.target.name]: e.target.value
         })
     }
+    
+    const validateForm = () => {
+        for (const field of validationConfig) {
+          if (values[field.field].length === 0) {
+            alert(`Debes completar todos los campos. Ingresa tu ${field.label}.`);
+            return false
+          }
+        }
+        return true
+    }    
 
     const handleSubmit = (e) => {
         e.preventDefault()
+
+        if (!validateForm()) {
+            return
+        }
         
         const orden = {
             cliente: values,
@@ -69,11 +91,11 @@ const Checkout = () =>{
             <h2 className="cart-title fs-3 mt-3 mb-4">Datos de compra</h2>
             <div>
                 <form onSubmit={handleSubmit}>
-                    <input value={values.nombre} type="text" placeholder="Nombre" onChange={handleInputChange} className="form-control my-2" name="nombre" required/>
-                    <input value={values.apellido} type="text" placeholder="Apellido" onChange={handleInputChange} className="form-control my-2" name="apellido" required/>
-                    <input value={values.direccion} type="text" placeholder="Dirección" onChange={handleInputChange} className="form-control my-2" name="direccion" required/>
-                    <input value={values.localidad} type="text" placeholder="Localidad" onChange={handleInputChange} className="form-control my-2" name="localidad" required/>
-                    <input value={values.email} type="text" placeholder="Email" onChange={handleInputChange} className="form-control my-2" name="email" required/>
+                    <input value={values.nombre} type="text" placeholder="Nombre" onChange={handleInputChange} className="form-control my-2" name="nombre" />
+                    <input value={values.apellido} type="text" placeholder="Apellido" onChange={handleInputChange} className="form-control my-2" name="apellido" />
+                    <input value={values.direccion} type="text" placeholder="Dirección" onChange={handleInputChange} className="form-control my-2" name="direccion" />
+                    <input value={values.localidad} type="text" placeholder="Localidad" onChange={handleInputChange} className="form-control my-2" name="localidad" />
+                    <input value={values.email} type="text" placeholder="Email" onChange={handleInputChange} className="form-control my-2" name="email" />
                     <div className="text-center my-4">
                         <button className="btn btn-danger" type="submit">Enviar</button>
                     </div>
