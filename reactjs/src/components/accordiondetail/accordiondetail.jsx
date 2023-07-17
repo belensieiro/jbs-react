@@ -2,10 +2,10 @@ import Accordion from 'react-bootstrap/Accordion';
 
 function AccordionDetail({description, destacado, origen, colores}) {
   return (
-    <div className='container'>
-     <Accordion>
+    <div className='container accordion m-0 p-0'>
+     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-      <Accordion.Header>Descripción</Accordion.Header>
+      <Accordion.Header className='accordion-header'>Descripción</Accordion.Header>
           <Accordion.Body>
             {description}
           </Accordion.Body>

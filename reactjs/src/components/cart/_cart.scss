@@ -1,0 +1,32 @@
+
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: $shadow;
+
+    .cart-title{
+        border-bottom: 1px solid #d1d1d1;
+    }
+
+    .cart-title,.cart-total{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 18px;
+    }
+    .producto{
+        margin-block: 1rem ;
+        
+        
+        .cart-info{
+            padding: 1.2rem;
+            box-shadow: $shadow;
+
+            .img-card {
+                width: 10rem;
+                margin-top: 8px;
+            }
+        }
+    }
+}
+  

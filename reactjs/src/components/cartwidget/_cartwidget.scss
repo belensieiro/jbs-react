@@ -2,6 +2,17 @@
     color: white;
     font-size: 12px;
     font-weight: 600;
-    background-color: $principal;
+    background-color: $danger;
     border-radius: 193px 193px 193px 193px;
+}
+
+.cart-widget{
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+}
+
+.cart-widget-visible{
+    visibility: visible;
+    opacity: 1;
 }

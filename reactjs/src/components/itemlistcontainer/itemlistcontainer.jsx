@@ -1,18 +1,16 @@
 import ProductsList from "../productslist/productslist"
 import {useProducts} from "../../hooks/useProducts"
+import SpinnerWithImage from "../spinner/spinner"
 
 const ItemListContainer = () => {
     const { productos, loading } = useProducts()
-
-    console.log(loading, productos)
-
 
     return (
         <div>
             <div className="container my-5">
                 {
                     loading
-                        ? <h2 className="carga">Cargando...</h2>
+                        ? <SpinnerWithImage/>
                         : <ProductsList items={productos}/>
                 }
             </div>

@@ -1,5 +1,4 @@
 
-
 const VideoBanner = () => {
     return (
       <div className="video-container">

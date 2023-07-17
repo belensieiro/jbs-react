@@ -5,9 +5,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 // colores //
-$principal: rgb(46,90,70);
-$danger: $principal;
-
+$principal: #080808;
+$danger: rgba(0, 0, 0, 0.911);
+$primary: $danger;
+$warning: rgba(128, 128, 128, 0.185);
 
 // VARIABLES BS //
     
@@ -17,3 +18,11 @@ $navbar-light-color:#000000c9;
 //personalizados//
 $shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.288);
 $shadowlight: -2px -12px 104px -54px rgba(247,247,247,1);
+
+//accordion//
+$accordion-button-active-bg: $danger;
+$accordion-button-active-color: white;
+$accordion-button-focus-border-color: $principal;
+$accordion-button-focus-box-shadow: $principal;
+$accordion-bg: rgba(192, 187, 187, 0.123);
+$accordion-border-color: $shadow;
